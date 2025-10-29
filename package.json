@@ -1,0 +1,13 @@
+{
+  "name": "railway-envvars-dockerfile",
+  "version": "0.0.1",
+  "description": "A test of how Railway variables get injected into the environment",
+  "scripts": {
+    "run": "http-server --port 8000"
+  },
+  "author": "Malthe Jørgensen <malthe.jorgensen@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "http-server": "^14.1.1"
+  }
+}
