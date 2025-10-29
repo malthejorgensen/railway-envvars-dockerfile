@@ -1,5 +1,7 @@
 FROM node:20-alpine
 
+WORKDIR /server
+
 # Build frontend
 ARG API_BASE_URL
 ENV API_BASE_URL=$API_BASE_URL
